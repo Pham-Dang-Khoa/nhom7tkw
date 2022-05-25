@@ -1,0 +1,79 @@
+footer{
+    background-image: url(american-heritage-chocolate-uHHC3xS9u3o-unsplash.jpg);
+    background-attachment: fixed;
+    height: 110px;
+}
+
+
+.pro :hover{
+    background-color: rgb(224, 153, 165);
+}
+.mainb{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px 600px;
+    grid-template-areas: 
+    "tieude tieude"
+    "content thongtin"
+    ;
+}
+.tieude{
+    grid-area: tieude;
+    background-image: linear-gradient(white,pink);
+    padding: 10px;
+    height: 50px;
+}
+.content{
+    grid-area: content;
+}
+.thongtin{
+    grid-area: thongtin;
+    float: right;
+}
+.hinhlon{
+    float: right;
+    position: relative;
+    grid-area: hinhlon;
+    top: -390px;
+    left: -500px;
+}
+.hl1{
+    position: absolute;
+    z-index: 3;
+}
+.hl2{
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+.hl3{
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+.hinhnho{
+    position: relative;
+}
+.shop{
+    position: relative;
+    color: red;
+    border: 1px solid red;
+    border-radius: 15px;
+    float: left;
+    font-size: 12px;
+}
+.mua{
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    height: 80px;
+    width: 270px;
+    text-align: center;
+    position: absolute;
+    left: 270px;
+    line-height: 50px;
+    font-size: 30px;
+}
+.star{
+    color: yellow;
+}

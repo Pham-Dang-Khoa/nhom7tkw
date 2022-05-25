@@ -1,0 +1,191 @@
+
+ul li a{
+    text-decoration: none; 
+    text-align: center;
+ 
+}
+header p{
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+header h1{
+    text-align: center;
+    color: rgb(216, 98, 118);
+}
+
+section{
+    width: 1900px;
+}
+
+div{
+    padding: 10px;
+}
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+    color: slategray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#box{
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mar{
+    height: 350px;
+    padding-top: 10px;
+}
+
+#near-footer{
+    width: 100%;
+    height: 500px;
+    background-image: url(attachment-bg.jpg);
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+    border-radius:20px 20px 20px / 20px 20px;
+}
+
+footer{
+    padding-top: 350px;
+}
+
+.pro a{
+    text-decoration: none;
+    color: black;
+    
+}
+.pro a :hover{
+    background-color: rgb(224, 153, 165);
+    transition: .7s;
+    border-radius: 10px;
+    color: white;
+    
+}
+.container-2{
+    width: 250px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  }
+  .container-2 input#search{
+    width: 50px;
+    height: 40px;
+    background-color: rgb(99, 111, 138);
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: white;
+    padding-left: 35px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+   
+    -webkit-transition: width .55s ease;
+    -moz-transition: width .55s ease;
+    -ms-transition: width .55s ease;
+    -o-transition: width .55s ease;
+    transition: width .55s ease;
+  }
+  .container-2 input#search::-webkit-input-placeholder {
+    color: white;
+ }
+  
+ .container-2 input#search:-moz-placeholder { /* Firefox 18- */
+    color: white;  
+ }
+  
+ .container-2 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: white;  
+ }
+  
+ .container-2 input#search:-ms-input-placeholder {  
+    color: white;  
+ }
+ .container-2 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: wheat;
+  }
+  .container-2 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 10px;
+    margin-top: 7px;
+    z-index: 1;
+
+    color: wheat;
+  }
+  .container-2 input#search:focus, .container-2 input#search:active{
+    outline:none;
+    width: 200px;
+  }
+   
+  .container-2:hover input#search{
+  width: 200px;
+  }
+   
+  .container-2:hover .icon{
+    color: palevioletred;
+  }
+.icona{
+    position: relative;
+    top: -10px;
+}
+.icona a{
+    color: palevioletred;
+    padding-left: 15px;
+    
+}
+.iconb{
+    padding-left: 5px;
+    color: palevioletred;
+}
+.iconb :hover{
+    transition: .3s;
+    color: white;
+}
+.nha{
+    position: relative;
+    padding: 5px;
+    font-size: 16px;
+}
+.footera{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "diachi chinhsach";
+}
+.footera .diachi{
+    grid-area: diachi;
+}
+.footera .chinhsach{
+    grid-area: chinhsach;
+}
+.chinhsach ul li a{
+    color: black;
+}
+.chinhsach ul li  :hover{
+    color: palevioletred;
+}
+.footera{
+    background-image: linear-gradient(white,pink);
+}
+.box{
+    position: relative;
+    left: 900px;
+    top: 0px;
+}

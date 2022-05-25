@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .colors {
+        margin-left: 40px;
+        margin-top: 40px;
+        }
+        .red, .green, .blue {
+        width: 100px;
+        height: 100px;
+        color: white;
+        line-height: 100px;
+        text-align: center;
+        }
+        .red {
+        background: red;
+        }
+        .green {
+        margin-top: -40px;
+        margin-left: 60px;
+        background: green;
+        }
+        .blue {
+        margin-top: -40px;
+        margin-left: 120px;
+        background: blue;
+        }
+        .red {
+  z-index: 3;
+  position: relative;
+}
+.green {
+  z-index: 2;
+  position: relative;
+}
+.blue {
+  z-index: 1;
+  position: relative;
+}
+    </style>
+</head>
+<body>
+    <div class="colors">
+  <div class="red">
+    <span>Red</span>
+  </div>
+  <div class="green">
+    <span>Green</span>
+  </div>
+  <div class="blue">
+    <span>Blue</span>
+  </div>
+</div>
+</body>
+</html>
